@@ -73,65 +73,56 @@
     <!-- End content -->
 
     <!-- card -->
-    <div class="row row-cols-3 row-cols-md-2 mb-3 text-center">
-        <div class="col">
-            <div class="card mb-4 rounded-6" >
-                <div class="card-body">
-                    <h1>PERIKSA GIGI </h1>
-                    <img src="img/gigi.png" alt="">
-                    <button>
+    <section id="fitur">
+        <div class="row" style="margin: 0 20px 43px 120px">
+            <div class="col-lg-4">
+                <div class="card text-center" >
+                    <div class="card-body mb-2">
+                        <h1>PERIKSA GIGI </h1>
+                        <img src="img/gigi.png" style="height: 220px" alt="">
                         <div>
-                            <span></span>
-                            <a href="#">PERIKSA</a>
+                            <a class="btn btn-light mt-4 text-center" style="background-color: #B1B2FF; border-radius: 10px; height: 50px; width: 300px; color: white;
+                            font-family: 'Open Sans'; font-weight: 900; font-size: 25px " href="#">PERIKSA</a>
                         </div>
-                    </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center" >
+                    <div class="card-body mb-2">
+                        <h1>DOKTER GIGI </h1>
+                        <img src="img/dokter.png" style="height: 220px" alt="">
+                        <div>
+                            <a class="btn btn-light mt-4 text-center" style="background-color: #B1B2FF; border-radius: 10px; height: 50px; width: 300px; color: white;
+                            font-family: 'Open Sans'; font-weight: 900; font-size: 25px " href="#">PERIKSA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center" >
+                    <div class="card-body mb-2">
+                        <h1>PASIEN BARU </h1>
+                        <img src="img/pasien.png" style="height: 220px" alt="">
+                        <div>
+                            <a class="btn btn-light mt-4 text-center" style="background-color: #B1B2FF; border-radius: 10px; height: 50px; width: 300px; color: white;
+                            font-family: 'Open Sans'; font-weight: 900; font-size: 25px " href="#">DAFTAR</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="col">
-            <div class="card mb-6 rounded-6" >
-                <div class="card-body">
-                    <h1>DOKTER GIGI </h1>
-                    <img src="img/dokter.png" alt="">
-                    <button>
-                        <div>
-                            <span></span>
-                            <a href="#">CHAT DOKTER</a>
-                        </div>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card mb-6 rounded-6" >
-                <div class="card-body">
-                    <h1>PASIEN BARU </h1>
-                    <img src="img/pasien.png" alt="">
-                    <button>
-                        <div>
-                            <span></span>
-                            <a href="#">DAFTAR</a>
-                        </div>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-
-    </div>
+    </section>
     <!-- End card -->
     <br>
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-md-1">
             <h3 class="pb-2 mb-2 " style="color: #AAC4FF; text-align: center">
                 Artikel
             </h3>
         </div>
     </div>
-    <br>
+    <br> -->
     <!-- artikel -->
 
     <!-- End artikel -->
@@ -164,9 +155,6 @@
                 <a href=""></a>
               </ul>
             </div>
-
-
-
           </div>
         </div>
 
@@ -184,13 +172,11 @@
         </div>
 
       </footer><!-- End Footer -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <script>
     $('#carouselExampleIndicators').on('slid.bs.carousel', function (e) {
     $('#carouselExampleIndicators').carousel('2') // Will slide to the slide 2 as soon as the transition to slide 1 is finished
   })
-
   $('#carouselExampleIndicators').carousel('1') // Will start sliding to the slide 1 and returns to the caller
   $('#carouselExampleIndicators').carousel('2') // !! Will be ignored, as the transition to the slide 1 is not finished !!</script>
 
@@ -198,32 +184,23 @@
     var pageTitle = Andara Dental.title;
     var attentionMessage = 'Mari Kembali';
     var blinkEvent = null;
-
     Andara Dental.addEventListener('visibilitychange',function(e)
     { var isPageActive = !Andara Dental.hidden;
-
         if (!isPageActive) {
             blink();
-
         }else
         Andara Dental.title=pageTitle;
         clearInterval(blinkEvent);
     }
 });
-
 function blink(){
     blinkEvent= setInterval(function(){
         if (Andara Dental.title === attentionMessage) {
             Andara Dental.title = pageTitle;
         } else {
             Andara Dental.title = attentionMessage;
-
         }
     }, 100);
 }; </script> --}}
-
-
-
-
 </body>
 </html>
