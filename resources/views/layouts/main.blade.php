@@ -45,7 +45,7 @@
     <footer id="footer" class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 footer-info text-align-center">
+                <div class="col-lg-5 col-md-12 footer-info text-align-center">
                     <a href="" class="logo d-flex align-items-center" style="text-decoration:none  ">
                         <span >FRESH DENTAL
                             INDONESIA </span>
@@ -62,7 +62,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-4 col-12 footer-links text-align-center">
+                <div class="col-lg-3 col-12 footer-links text-align-center">
                     <h4>Download Aplikasi</h4>
                     <a href="/">
                         <img src="img/gplay.png" style="margin-left: -20px" alt="">
