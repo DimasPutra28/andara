@@ -7,11 +7,13 @@
     <title>Andara Dental</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
+
 <body>
 
     <!-- header -->
-    <nav class="navbar bg-body-tertiary" style="">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="">
         <div class="container-fluid justify-content-between" style="background-color: #AAC4FF">
             <div class="row">
                 <a class="navbar-brand" href="#" style="padding: 10px 0 10px 0">
@@ -19,21 +21,18 @@
                 </a>
             </div>
             <div class="row" style="margin-right: 200px">
-                <ul>
-                    <li style="margin-right: 30px;"><a href="/" style="color: rgb(23, 11, 183); text-decoration: none">Beranda</a></li>
-                    <li class="dropdown"><a style="color: rgb(23, 11, 183); text-decoration: none" href="#"><span>User</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <div class="dropdown" style="margin-right: -100px;" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" style="color: #ffffff; right: 50px;" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg>
                         <ul>
-                            <li><a href="" class="bi bi-person-fill" style="padding-right: 120px; text-decoration: none"> Login</a></li>
-                            <li><a href="/ubahpassword" class="bi bi-key-fill" style="padding-right: 45px; text-decoration: none">Register</a></li>
-                            {{-- <li>
-                                <form action="/logout" method="post">
-                                    @csrf
-                                    <button class="dropdown-item bi bi-box-arrow-right" style="padding-right: 112px">Keluar</button>
-                                </form>
-                            </li> --}}
+                            <li><a class="bi bi-person-plus-fill" style="padding-right: 113px" href="/register">Daftar</a></li>
+                            <li><a class="bi bi-box-arrow-left" style="padding-right: 110px" href="/login">Masuk</a></li>
                         </ul>
-                    </li>
-                </ul>
+                </div>
+
+
             </div>
 
         </div>
