@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="">
         <div class="container-fluid justify-content-between" style="background-color: #AAC4FF">
             <div class="row">
-                <a class="navbar-brand" href="#" style="padding: 10px 0 10px 0">
+                <a class="navbar-brand" href="/" style="padding: 10px 0 10px 0">
                     <img src="img/logo.png" alt="" width="100" height="50" class="d-inline-block align-text-top ms-4">
                 </a>
             </div>
@@ -27,8 +27,8 @@
                         <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                       </svg>
                         <ul>
-                            <li><a class="bi bi-person-plus-fill" style="padding-right: 113px" href="/register">Daftar</a></li>
-                            <li><a class="bi bi-box-arrow-left" style="padding-right: 110px" href="/login">Masuk</a></li>
+                            <li><a class="bi bi-person-plus-fill" style="padding-right: 113px; text-decoration: none; color: #163785" href="/register">Daftar</a></li>
+                            <li><a class="bi bi-box-arrow-left" style="padding-right: 112px; text-decoration: none; color: #163785" href="/login">Masuk</a></li>
                         </ul>
                 </div>
 

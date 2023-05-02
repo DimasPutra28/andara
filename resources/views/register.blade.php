@@ -5,7 +5,7 @@
     <div class="row d-flex justify-content-center">
         <h1 class="text-center" style="color: #AAC4FF; font-weight: bold">Pendaftaran Pasien Baru</h1>
         <div class="col-lg-6">
-            <div class="card" style="border-radius: 5px;>
+            <div class="card" style="border-radius: 5px;">
                 <div class="card-body mt-5 mb-5">
                     <form action="">
                         @csrf

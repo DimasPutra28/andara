@@ -79,53 +79,65 @@
 
     <!-- artikel -->
     <section id="artikel" class="mb-5">
-        <h1 class="ms-5" style="color: #AAC4FF">Artikel</h1>
+        <h1 style="color: #AAC4FF; padding-left: 155px">Artikel</h1>
 
-        <div class="card ms-5 mb-3" style="width: 1602px; background-color: #B1B2FF; color: white;">
-            <div class="card-body" style="margin: 5px 0 5px 0">
-                <h5 class="card-title" style="padding-left: 264px; font-size: 30px; font-weight: 800">Gingivitis</h5>
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img src="img/artikel1.jpg" style="border-radius: 10px" alt="">
-                    </div>
-                    <div class="col-lg-10">
-                        <p class="card-text" style="font-size: 35px">Kebanyakan topik yang dibahas jika berbicara tentang kesehatan gigi dan mulut adalah bagaimana menjaga agar gigi...</p>
-                        <div class="d-flex justify-content-end">
-                            <a class="me-4" style="text-decoration: none; color: white; font-size: 20px;" href="">Baca selengkapnya</a>
+        <div class="erga d-flex justify-content-center">
+            <div class="col-10">
+                <div class="card ms-5 me-5 mb-4" style="background-color: #B1B2FF; color: white; border-radius: 10px">
+                    <div class="card-body" style="margin: 5px 0 5px 0">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="img/artikel1.jpg" style="border-radius: 10px; heigh: 100px; width: 200px" alt="">
+                            </div>
+                            <div class="col-lg-9" style="">
+                                <h5 class="card-title" style="font-size: 30px; font-weight: 700">Gingivitis</h5>
+                                <p class="card-text" style="font-size: 15px">Kebanyakan topik yang dibahas jika berbicara tentang kesehatan gigi dan mulut adalah bagaimana menjaga agar gigi...</p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <a class="me-4" style="text-decoration: none; color: white; font-size: 20px; margin-top: -30px" href="">Baca selengkapnya</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="card ms-5 mb-3" style="width: 1602px; background-color: #B1B2FF; color: white;">
-            <div class="card-body" style="margin: 5px 0 5px 0">
-                <h5 class="card-title" style="padding-left: 264px; font-size: 30px; font-weight: 800">Wajib Tahu! 7 Fakta Tentang Gigi Palsu</h5>
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img src="img/artikel2.jpg" style="border-radius: 10px" alt="">
-                    </div>
-                    <div class="col-lg-10">
-                        <p class="card-text" style="font-size: 35px">Pasti sedikit atau banyaknya Sobat pernah mendengar istilah ini: gigi palsu. Yap, gigi yang perannya untuk menggantikan...</p>
-                        <div class="d-flex justify-content-end">
-                            <a class="me-4" style="text-decoration: none; color: white; font-size: 20px;" href="">Baca selengkapnya</a>
+        <div class="erga d-flex justify-content-center">
+            <div class="col-10">
+                <div class="card ms-5 me-5 mb-4" style="background-color: #B1B2FF; color: white; border-radius: 10px">
+                    <div class="card-body" style="margin: 5px 0 5px 0">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="img/artikel2.jpg" style="border-radius: 10px; heigh: 100px; width: 200px" alt="">
+                            </div>
+                            <div class="col-lg-9" style="">
+                                <h5 class="card-title" style="font-size: 30px; font-weight: 700">Wajib Tahu! 7 Fakta Tentang Gigi Palsu</h5>
+                                <p class="card-text" style="font-size: 15px">Pasti sedikit atau banyaknya Sobat pernah mendengar istilah ini: gigi palsu. Yap, gigi yang perannya untuk menggantikan....</p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <a class="me-4" style="text-decoration: none; color: white; font-size: 20px; margin-top: -30px" href="">Baca selengkapnya</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="card ms-5 mb-3" style="width: 1602px; background-color: #B1B2FF; color: white;">
-            <div class="card-body" style="margin: 5px 0 5px 0">
-                <h5 class="card-title" style="padding-left: 264px; font-size: 30px; font-weight: 800">Cegah Gigi Keropos Dengan 5 Langkah Ini</h5>
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img src="img/artikel3.jpg" style="border-radius: 10px" alt="">
-                    </div>
-                    <div class="col-lg-10">
-                        <p class="card-text" style="font-size: 35px">Tentu Sobat sudah tahu dong, ya, bahwa gigi kita ini tersusun dari berbagai mineral seperti kalsium dan fosfat...</p>
-                        <div class="d-flex justify-content-end">
-                            <a class="me-4" style="text-decoration: none; color: white; font-size: 20px;" href="">Baca selengkapnya</a>
+        <div class="erga d-flex justify-content-center">
+            <div class="col-10">
+                <div class="card ms-5 me-5 mb-4" style="background-color: #B1B2FF; color: white; border-radius: 10px">
+                    <div class="card-body" style="margin: 5px 0 5px 0">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="img/artikel2.jpg" style="border-radius: 10px; heigh: 100px; width: 200px" alt="">
+                            </div>
+                            <div class="col-lg-9" style="">
+                                <h5 class="card-title" style="font-size: 30px; font-weight: 700">Cegah Gigi Keropos Dengan 5 Langkah Ini</h5>
+                                <p class="card-text" style="font-size: 15px">Tentu Sobat sudah tahu dong, ya, bahwa gigi kita ini tersusun dari berbagai mineral seperti kalsium dan fosfat...</p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <a class="me-4" style="text-decoration: none; color: white; font-size: 20px; margin-top: -30px" href="">Baca selengkapnya</a>
+                            </div>
                         </div>
                     </div>
                 </div>
