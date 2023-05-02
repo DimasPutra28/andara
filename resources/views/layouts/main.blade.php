@@ -64,9 +64,13 @@
 
                 <div class="col-lg-4 col-12 footer-links text-align-center">
                     <h4>Download Aplikasi</h4>
-                    <img src="img/gplay.png" style="margin-left: -20px" alt="">
+                    <a href="/">
+                        <img src="img/gplay.png" style="margin-left: -20px" alt="">
+                    </a >
                     <br>
-                    <img src="img/astore.png" style="margin-left: -5px" alt="">
+                    <a href="/">
+                        <img src="img/astore.png" style="margin-left: -5px" alt="">
+                    </a>
                 </div>
             </div>
         </div>

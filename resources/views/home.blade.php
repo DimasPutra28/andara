@@ -2,7 +2,7 @@
 @section('dimas')
 
     <!-- content -->
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="margin-top: 70px;">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -29,7 +29,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div>
     <!-- End content -->
 
     <!-- card -->
@@ -40,22 +40,26 @@
                     <div class="card-body mb-2">
                         <h1>PERIKSA GIGI </h1>
                         <img src="img/gigi.png" style="height: 220px" alt="">
-                        <div>
-                            <a class="btn btn-light mt-4 text-center" style="background-color: #B1B2FF; border-radius: 10px; height: 50px; width: 300px; color: white;
-                            font-family: 'Open Sans'; font-weight: 900; font-size: 25px " href="#">PERIKSA</a>
-                        </div>
+                        <button>
+                            <div>
+                                <span></span>
+                                <a href="#">PERIKSA</a>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="card text-center" >
-                    <div class="card-body mb-2">
+                    <div class="card-body mb-2 ">
                         <h1>DOKTER GIGI </h1>
                         <img src="img/dokter.png" style="height: 220px" alt="">
-                        <div>
-                            <a class="btn btn-light mt-4 text-center" style="background-color: #B1B2FF; border-radius: 10px; height: 50px; width: 300px; color: white;
-                            font-family: 'Open Sans'; font-weight: 900; font-size: 25px " href="#">CHAT DOKTER</a>
-                        </div>
+                        <button>
+                            <div>
+                                <span></span>
+                                <a href="/chat">CHAT DOKTER</a>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -64,10 +68,12 @@
                     <div class="card-body mb-2">
                         <h1>PASIEN BARU </h1>
                         <img src="img/pasien.png" style="height: 220px" alt="">
-                        <div>
-                            <a class="btn btn-light mt-4 text-center" style="background-color: #B1B2FF; border-radius: 10px; height: 50px; width: 300px; color: white;
-                            font-family: 'Open Sans'; font-weight: 900; font-size: 25px " href="#">DAFTAR</a>
-                        </div>
+                        <button>
+                            <div>
+                                <span></span>
+                                <a href="#">DAFTAR</a>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>
