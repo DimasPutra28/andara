@@ -1,5 +1,5 @@
-@extends('layouts.main')
-@section('dimas')
+@extends('layouts.main1')
+@section('bayu')
 
     <!-- content -->
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="margin-top: 70px;">
@@ -43,7 +43,7 @@
                         <button>
                             <div>
                                 <span></span>
-                                <a href="/login">PERIKSA</a>
+                                <a href="/daftarperiksa">PERIKSA</a>
                             </div>
                         </button>
                     </div>
@@ -71,7 +71,7 @@
                         <button>
                             <div>
                                 <span></span>
-                                <a href="/login">DAFTAR</a>
+                                <a href="/daftarpasienbaru">DAFTAR</a>
                             </div>
                         </button>
                     </div>
@@ -100,7 +100,7 @@
                                 <p class="card-text" style="font-size: 15px">Kebanyakan topik yang dibahas jika berbicara tentang kesehatan gigi dan mulut adalah bagaimana menjaga agar gigi...</p>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <a class="me-4" style="text-decoration: none; color: white; font-size: 20px; margin-top: -30px" href="/login">Baca selengkapnya</a>
+                                <a class="me-4" style="text-decoration: none; color: white; font-size: 20px; margin-top: -30px" href="">Baca selengkapnya</a>
                             </div>
                         </div>
                     </div>

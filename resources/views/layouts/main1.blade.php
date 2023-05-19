@@ -21,15 +21,19 @@
                 </a>
             </div>
             <div class="row" style="margin-right: 130px">
+                <p style="position: relative; left: 130px; top: 1px; font-weight: 500; color: #ffffff">Hello,Erga</p>
+
                 <div class="dropdown" style="margin-right: -100px;" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" style="color: #ffffff; margin-right: -100px;" viewBox="0 0 16 16">
-                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                    </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" style="color: #ffffff; margin-right: -100px;" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                        </svg>
+
                         <ul>
-                            <li><a class="bi bi-person-plus-fill" style="padding-right: 113px; text-decoration: none; color: #163785" href="/register">Daftar</a></li>
-                            <li><a class="bi bi-box-arrow-in-left" style="padding-right: 112px; text-decoration: none; color: #163785" href="/login">Masuk</a></li>
+                            <li><a class="bi bi-person-fill" style="padding-right: 113px; text-decoration: none; color: #163785" href="/register">Profile</a></li>
+                            <li><a class="bi bi-box-arrow-left" style="padding-right: 112px; text-decoration: none; color: #163785" href="/login">Keluar</a></li>
                             <li><a class="bi bi-key-fill" style="padding-right: 85px; text-decoration: none; color: #163785" href="/forgotpass"> Kata Sandi</a></li>
                         </ul>
+
                 </div>
 
 
@@ -39,7 +43,7 @@
     </nav>
     <!-- End header -->
 
-    @yield('dimas')
+    @yield('bayu')
 
    <!-- Footer -->
     <footer id="footer" class="footer">

@@ -1,5 +1,7 @@
-@extends('layouts.main')
-@section('dimas')
+@extends('layouts.main1')
+@section('bayu')
+
+<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css"/>
 
 <section id="register" class="register" style="margin: 150px 0 150px 0">
     <h1 class="text-center mb-5" style="color: #AAC4FF; font-weight: bold">Pendaftaran Pasien Baru</h1>
@@ -14,7 +16,7 @@
                                 <label for="" style="font-weight: bold; font-size: 25px">NIK</label>
                             </div>
                             <div class="col-lg-9">
-                                <input type="text" style="border: 3px solid #AAC4FF;" class="form-control" placeholder="Masukkan NIK anda">
+                                <input type="text" style="border: 3px solid #AAC4FF;" class="form-control" placeholder="Masukkan NIK, Kemudian Enter">
                             </div>
                         </div>
 
@@ -39,10 +41,10 @@
 
                         <div class="row mb-4">
                             <div class="col-lg-3" >
-                                <label for="" style="font-weight: bold; font-size: 25px">Email</label>
+                                <label for="" style="font-weight: bold; font-size: 25px">Tanggal Lahir</label>
                             </div>
                             <div class="col-lg-9">
-                                <input type="text" style="border: 3px solid #AAC4FF;" class="form-control" placeholder="Masukkan email anda">
+                                    <input class="form-control form-control-solid" placeholder="Pick date & time" id="time"/>
                             </div>
                         </div>
 
@@ -78,5 +80,16 @@
         </div>
     </div>
 </section>
+
+
+<script src="assets/plugins/global/plugins.bundle.js"></script>
+<script>
+    $(document).off('.datepicker.data-api');
+    $('.datepicker').datepicker({
+    format: 'mm/dd/yyyy',
+    startDate: '-3d'
+});
+
+</script>
 
 @endsection
